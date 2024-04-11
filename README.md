@@ -15,19 +15,19 @@ The pre-trained weights for the SSD model are available on Google Drive due to t
 - ImageIO
 
 ## 📁 Structure
--ssd.py: Contains the structure of the SSD model.
--data/: Folder containing necessary data and label map.
--epic_horses.mp4: Sample video for object detection.
--object_detection.py: Main Python file for object detection.
+- ssd.py: Contains the structure of the SSD model.
+- data/: Folder containing necessary data and label map.
+- epic_horses.mp4: Sample video for object detection.
+- object_detection.py: Main Python file for object detection.
 
 ## ⚡️ How it Works
 The object_detection.py script does the following:
 
--Loads the pre-trained SSD model.
--Reads each frame from the input video.
--Detects objects in each frame using the SSD model.
--Draws bounding boxes and labels on the detected objects.
--Writes the annotated frames to an output video file.
+- Loads the pre-trained SSD model.
+- Reads each frame from the input video.
+- Detects objects in each frame using the SSD model.
+- Draws bounding boxes and labels on the detected objects.
+- Writes the annotated frames to an output video file.
 
 ## 🌐 Scope and Applications
 This project can be scaled for real-world applications such as automated traffic systems, surveillance systems, and more.
